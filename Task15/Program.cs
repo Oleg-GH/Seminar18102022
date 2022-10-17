@@ -2,7 +2,7 @@
 // является ли этот день выходным.    6 -> да    7 -> да     1 -> нет
 
 //Console.Clear();
-Console.Write("Введите число от 1 до 7:   ");
+Console.Write("Введите число от 1 до 7:    ");
 int day = int.Parse(Console.ReadLine());
 
 if(day > 7 | day < 1)
